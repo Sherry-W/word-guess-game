@@ -2,6 +2,8 @@ body {
 	background-color: black;
 	color: black;
 	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
 }
 
 #backgoundImage_body {
@@ -22,13 +24,9 @@ h1 {
 	width: 600px;
 	padding-bottom: 50px;
 	margin: auto;
-	background-color: white;
+	background-color: darkgrey;
 	border: dashed 2px grey;
-
-
-
-
-
+	border-radius: 25px;
 }
 
 #animeName {
