@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Guess Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+</head>
+<body id="backgoundImage_body">
+
+  <div id="container">
+	<h1>Word Guess Game</h1>
+
+	<div id="animeName"></div>
+
+	<p>PRESS ANY KEY TO GET STARTED!</p>
+
+	<p>WINS: <span id="win"></span></p>
+
+	<p>LOSSES: <span id="loss"></span></p>
+
+	<p>CURRENT WORD: </p>
+
+	<p><span id="currentWord"> </span></p>
+
+	<p>NUMBER OF GUESSES REMAINING: </p>
+
+	<p><span id="guessLeft"></span></p>
+
+	<p>LETTERS ALREADY GUESSED: </p>
+
+	<p id="guessedLetters_p"><span id="guessedLetters"></span></p>
+
+
+	<button onclick="refresh()">Restart the Game</button>
+
+  </div>
+
+
+
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

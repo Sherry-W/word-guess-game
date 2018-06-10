@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	color: black;
+	text-align: center;
+}
+
+#backgoundImage_body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0;
+	font-family: 'Sigmar One', cursive;
+}
+
+#container {
+	opacity: .8;
+	width: 600px;
+	padding-bottom: 50px;
+	margin: auto;
+	background-color: white;
+	border: dashed 2px grey;
+
+
+
+
+
+}
+
+#animeName {
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	font-size: 35px;
+	color: red;
+	font-family: 'Sigmar One', cursive;
+}
+
+#guessedLetters_p {
+	width: 100%;
+	height: 25px;
+}
