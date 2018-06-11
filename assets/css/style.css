@@ -1,9 +1,17 @@
 body {
 	background-color: black;
-	color: black;
+	color: white;
 	text-align: center;
 	font-size: 25px;
 	font-weight: bolder;
+	-webkit-text-stroke: 1px black;
+   	text-shadow:
+	    1px 1px 0 #000,
+	    -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	    1px 1px 0 #000;
+	font-family: 'Sigmar One', cursive;
 }
 
 #backgoundImage_body {
@@ -13,20 +21,34 @@ body {
     height: 100%; 
 }
 
-h1 {
-	font-size: 50px;
+h2 {
+	font-size: 35px;
 	margin: 0;
 	font-family: 'Sigmar One', cursive;
+	-webkit-text-stroke: 1px white;
+	color: black;
+}
+
+p {
+	margin: 0;
+}
+
+#msg {
+	font-size: 45px;
+	margin: 0;
+	-webkit-text-stroke: 1px black;
+   	color: white;
+   	text-shadow:
+	    3px 3px 0 #000,
+	    -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	    1px 1px 0 #000;
 }
 
 #container {
-	opacity: .8;
-	width: 600px;
-	padding-bottom: 50px;
 	margin: auto;
-	background-color: darkgrey;
-	border: dashed 2px grey;
-	border-radius: 25px;
+
 }
 
 #animeName {
@@ -37,6 +59,8 @@ h1 {
 	font-size: 35px;
 	color: red;
 	font-family: 'Sigmar One', cursive;
+	-webkit-text-stroke: 1px black;
+
 }
 
 #guessedLetters_p {

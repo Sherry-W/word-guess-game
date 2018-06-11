@@ -20,4 +20,4 @@ If you guessed right, the background image is going to change to match the anima
 
 Good Luck and Please Enjoy the Game!
 
-![Game Page](/assets/images/WordGuessGame_gray.JPG)
+![Game Page](/assets/images/WordGuessGame_clear.JPG)
